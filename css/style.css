@@ -42,7 +42,7 @@ header	h2	{
 
 .benefits	{
 	background: #f0efef;
-	height: 50em;
+	height: 30em;
 }
 
 .benefits	h1	{
@@ -61,12 +61,12 @@ header	h2	{
 .benefits	p	{
 	font-size: 25px;
 	color: #033048
-	line-height: 1.5;
+	line-height: 4;
 	font-weight: 300;
 	text-align: left;
 	margin-left: 4em;
-	margin-right: 4em;
-	padding-bottom: .5em;
+	margin-right: 8em;
+	padding-bottom: 1em;
 }
 
 .benefits	ul {
@@ -74,26 +74,36 @@ header	h2	{
 	line-height: 1.5;
 	font-weight: 300;
 	text-align: left;
-	margin-left: 4em;
+	margin-left: 6em;
 	list-style-type: circle;
 }
 
 .testimonial	{
 	background-image: url(../images/testimonial_bg.jpg);
 	width: 100%;
-	height: 25em;
+	height: 22em;
 	color: #fff;
 }
 
 .testimonial p{
-	font-family: Open Sans, Sans-serif
+	font-family: Open Sans, Sans-serif;
 	font-size: 30px;
 	font-weight: 300;
+	font-style: italic;
 	line-height: 1.5;
-	font-weight: italic;
 	padding-top: 2em;
+	margin-left: 12em;
+	margin-right: 12em;
 }
 
+#author	{
+	color: #fff;
+	font-family: Open Sans;
+	font-size: 30px;
+	font-weight: 400;
+	font-style: normal;
+	margin-top: -1.5em;
+}
 
 .sign-up-now	{
 	background: #f9e42e;
@@ -111,6 +121,8 @@ header	h2	{
 	font-size:24px;
 	text-decoration: none;
 	color: #fff;
+	position: relative;
+	top: 40%;
 }
 
 footer	{

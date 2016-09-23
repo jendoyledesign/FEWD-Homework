@@ -1,0 +1,22 @@
+Use HTML5 structural elements (nav, header, footer)
+ - Good!
+Use a CSS Reset file in addition to your style.css file to style the page
+ - Good!
+Use IDs and Classes to to select and style elements on the page
+ - Good! Classes should be used for reusable styles (i.e. there could be multiple elements with the same class). Unique elements should be assigned an ID and styled accordingly.
+Follow naming conventions, maintain consistency across .html and .css files and use best practices for naming IDs and Classes
+ - Good! I do see a couple IDs with the first letter capitalized whereas the others are all lowercase, but other than that everything looks great.
+Indent nested elements to increase your code's readability
+ - Good!
+Use CSS display and float to get the layout correct
+ - Good!
+
+Additional Comments:
+
+- Great work! Really nice attention to detail. HTML and CSS is very clear and readable. Class names are descriptive and consistent.
+
+- There are a couple syntax error in your CSS. All rules need to end with a semicolon. There are a couple lines without this, which is causing the rules to be ignored. Sublime Text syntax highlighting can make it easier to spot these. 
+
+- Font families should always end with serif, sans-serif, or monospace to ensure the text is displayed even if the other fonts cannot be loaded
+
+- This is nitpicky, but it's considered best practice to wrap font names in single or double quotes. It's not necessary in most cases, but many font names contain punctuation characters or CSS keywords, and these do require quotes. To avoid confusion the recommendation is to always use quotes. Just FYI

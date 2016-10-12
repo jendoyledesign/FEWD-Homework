@@ -1,0 +1,26 @@
+Link the navigation to the sections of the page using the 'a' tag and id's
+  - Good!
+Use a unique title and unique h1 tags
+  - Good!
+Show image using img tag including unique alt attribute
+  - Good!
+Use an external CSS stylesheet to style your pages
+  - Good!
+Select at least 5 elements on the page and apply at least 5 different css properties (font-size, color, font-family, font-weight, text-decoration) to these elements
+  - Good!
+Use at least 6 different HTML tags (h1, h2, h3, h4, h5, h6, p, ul, ol, a, img) on your pages
+  - Good!
+Follow naming conventions, maintain consistency across your .html and .css files 
+  - Good!
+Indent nested elements to increase your code's readability
+  - Good!
+
+Additional Comments:
+
+Well done! You did a really good job of matching the style of your site to the mock you were given, with the lines and bullets and everything.
+
+A few of your tags are mismatched, like <h5>Overthrow</h4>. Probably just a typo, but watch out for that.
+
+Make sure not to repeat ids. So like how you have: <section id="section"></section> several times. (It works, but it's not semantic.) For something like that, you can use a class instead. (I know we talked about this in class after the homework was turned in, so you probably got the hang of it by now.)
+
+Overall, great job. Let me know if you have any questions.

@@ -14,6 +14,9 @@ console.log("city");
 
 $("#submit-btn").on("click", function (evt){
 
+
+		// Prevent a form submission
+
 	evt.preventDefault();
 	changeCityImage ();
 
@@ -32,24 +35,10 @@ function changeCityImage (){
 
 		if (city = "New York" || "New York City" || "NYC") {
 				$("body").css("background", "url('images/nyc.jpg')" );
-			} else if (city = "San Francisco" || "SF" || "Bay Area") {
-				$("body").css("background", "url('images/sf.jpg')");
-			} else if (city = "Los Angeles" || "LA" || "LAX") {
-				$("body").css("background", "url('images/la.jpg')");
-			} else if (city = "Austin" || "ATX") {
-				$("body").css("background", "url('images/austin.jpg')");
-			} else if (city = "Sydney" || "SYD") {
-				$("body").css("background", "url('images/sydney.jpg')");
-			} 	
-
-		// Prevent a form submission
-			 
-			   else {
-				$("#submit-btn").click(function(event){
-       			 event.preventDefault(); console.log("preventDefault");
-    });
-			} 
-
+			} else if (city = "Sydney") {
+				$("body").css("background", "url('images/sydney.jpg')" );
+			}
+  
 	};
 
 

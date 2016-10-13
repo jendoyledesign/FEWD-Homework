@@ -12,8 +12,9 @@ console.log("city");
 
 // Create an on click event for the submit button
 
-$("#submit-btn").on("click", function (){
+$("#submit-btn").on("click", function (evt){
 
+	evt.preventDefault();
 	changeCityImage ();
 
 	var city = $("#city-type").val();

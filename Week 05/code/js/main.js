@@ -24,6 +24,7 @@ $("#submit-btn").on("click", function (evt){
 
 	$("#city-type").text(city);
 
+
 	});
 
 // Define changeCityImage function
@@ -35,9 +36,7 @@ function changeCityImage (){
 
 		if (city = "New York" || "New York City" || "NYC") {
 				$("body").css("background", "url('images/nyc.jpg')" );
-			} else if (city = "Sydney") {
-				$("body").css("background", "url('images/sydney.jpg')" );
-			}
+			} 
   
 	};
 

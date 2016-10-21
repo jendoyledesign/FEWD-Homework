@@ -1,0 +1,22 @@
+Create an array with the following values: "NYC", "SF", "LA", "ATX", "SYD"; use the array to add values to the <select> menu by using a for loop in JavaScript (don't update the HTML to do this!)
+ - Good!
+When the user changes the input of the drop-down, update the background image based on what they selected
+ - Good!
+Use $.append() in your iteration on the drop-down menu
+ - Good! But the HTML you're passing into .append() isn't quite right. You're missing the '/' in your closing tag. That's causing some strange behavior in your dropdown.
+Use the $.attr() function to update html classes
+ - Good!
+Get the value of user input using $.val()
+ - Good!
+Use the $.change event handler to capture user actions
+ - Good!
+Use if/else if/else conditionals to control the flow of your application
+ - Good!
+Display your pseudocode as Javascript comments
+ - Good!
+
+ Additional Comments:
+
+ - Good job! The functionality is all there and your javascript is well indented.
+
+ - You're already declaring the variable 'city' using the 'var' keyword on line 3. You don't need to use the 'var' keyword again on line 16.

@@ -410,9 +410,19 @@ input[type="submit"]:active {
   width: 20em;
 }
 
+.options-block {
+    display: inline-block;
+  }
+
 /* media queries */
 
 @media only screen and (max-width: 768px) {
+
+
+  .options-block {
+    display: block;
+  }
+
   body {
     font-size: 18px;
   }
@@ -491,7 +501,4 @@ input[type="submit"]:active {
     display: none;
   }
 
-  .options-block {
-    display: block;
-  }
 }

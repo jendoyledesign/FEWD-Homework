@@ -490,4 +490,8 @@ input[type="submit"]:active {
   #sidebar img {
     display: none;
   }
+
+  .options-block {
+    display: block;
+  }
 }

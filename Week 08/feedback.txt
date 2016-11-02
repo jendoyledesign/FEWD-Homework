@@ -1,0 +1,11 @@
+Use at least three different types of HTML5 form elements
+ - Good!
+Style forms lightly using CSS
+ - Good!
+
+Additional Feedback
+
+ - Good job with the styling, placeholder text, and variety of input elements!
+
+ - Some of your attributes aren't quite right. I see several elements like this: "<input type='name' text='text'". What you were going for was "<input type='text'". 'text' happens to be the default value, which is why it works anyway.
+

@@ -3,4 +3,5 @@ $(document).ready(function() {
   $toggleButton.on('click', function() {
     $(this).toggleClass('button-open');
   });
+  
 });
